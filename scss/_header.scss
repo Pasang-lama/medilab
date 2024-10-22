@@ -1,0 +1,34 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+
+    .top-header {
+        background-color: $secondary-color;
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+        font-weight: 700;
+        color: $secondary-color;
+    }
+
+    .navaigation-bar {
+        background-color: white;
+    }
+
+    .cutome-btn {
+        background-color: $secondary-color;
+    }
+}
+
+.scrolled {
+    header {
+        .top-header {
+            padding-block: 0px !important;
+            height: 0;
+            visibility: hidden;
+            overflow: hidden;
+        }
+    }
+}

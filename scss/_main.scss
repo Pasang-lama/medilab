@@ -1,0 +1,66 @@
+.banner {
+    height: 100vh;
+    position: relative;
+
+    img {
+        height: 100%;
+    }
+
+    .banner-content {
+        position: absolute;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .text-content-box {
+        background-color: $secondary-color;
+
+    }
+
+    .item-box {
+        h2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    }
+}
+
+.counter-section {
+    background-color: #F1F7FC;
+
+    .counter-box {
+        background-color: white;
+        padding: 50px;
+    }
+}
+
+.department {
+    .nav {
+        border-right: 1px solid grey;
+
+        .nav-link {
+            border-radius: 0;
+            color: black;
+            font-weight: 700;
+            text-align: left;
+            &.active {
+                background-color: transparent !important;
+                color: $secondary-color;
+                border-right: 2px solid $secondary-color;
+            }
+        }
+
+
+    }
+
+
+
+}
+
+.faq{
+    background-color: #F1F7FC;
+}
